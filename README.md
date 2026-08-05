@@ -5,9 +5,6 @@ Documentation site for [Districts](https://districts.xyz), served at
 
 Built with [Docusaurus 2](https://docusaurus.io/). Migrated from GitBook.
 
-`doc.districts.xyz` also resolves here, kept from the side-by-side comparison
-against the GitBook original.
-
 ## Local development
 
 ```bash
