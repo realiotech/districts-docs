@@ -179,7 +179,22 @@ def html_md_to_route(body, page_dir, route_prefix):
     return HTML_MD_HREF.sub(repl, body)
 
 
-def convert_body(body, asset_prefix, used_assets, unresolved):
+def local_for_embed(url, available):
+    """Local asset filename backing a GitBook storage URL, if there is one.
+
+    Embeds keep pointing at signed files.gitbook.com URLs even in the export,
+    while the file itself is committed under .gitbook/assets. Nothing links the
+    two but the trailing filename, so match on that — otherwise the site keeps a
+    hard dependency on GitBook hosting and the media dies with the space.
+    """
+    # The storage path keeps its separators percent-encoded, so unquote before
+    # splitting or the "filename" comes back as spaces/<id>/uploads/<id>/name.
+    path = urllib.parse.unquote(urllib.parse.urlparse(url).path)
+    name = path.rsplit("/", 1)[-1] if path else ""
+    return name if name and name in available else ""
+
+
+def convert_body(body, asset_prefix, used_assets, unresolved, available_assets=()):
     body = HINT.sub(
         lambda m: f":::{ADMONITION.get(m.group('style'), 'note')}\n\n"
                   f"{m.group('body').strip()}\n\n:::", body)
@@ -187,7 +202,14 @@ def convert_body(body, asset_prefix, used_assets, unresolved):
     def embed(m):
         url, caption = m.group("url").strip(), m.group("caption").strip()
         if url.lower().split("?")[0].endswith(VIDEO_EXT):
-            block = f'<video controls width="100%">\n  <source src="{url}" />\n</video>'
+            local = local_for_embed(url, available_assets)
+            if local:
+                used_assets.add(local)
+                src = served_asset(local, asset_prefix)
+            else:
+                src = url
+                unresolved.append(f"embed still remote, no local asset: {url[:70]}")
+            block = f'<video controls width="100%">\n  <source src="{src}" />\n</video>'
             return f"{block}\n\n{caption}\n" if caption else f"{block}\n"
         unresolved.append(f"non-video embed: {url}")
         return f"[{caption or url}]({url})\n"
@@ -252,6 +274,8 @@ def main():
     os.makedirs(args.out, exist_ok=True)
     os.makedirs(args.assets_out, exist_ok=True)
 
+    src_assets_dir = os.path.join(args.source, ".gitbook", "assets")
+    available_assets = set(os.listdir(src_assets_dir)) if os.path.isdir(src_assets_dir) else set()
     used_assets, unresolved, missing = set(), [], []
     written = 0
 
@@ -269,7 +293,8 @@ def main():
         body = raw[len(head):]
         cover = COVER.search(head)
 
-        body = convert_body(body, args.asset_prefix, used_assets, unresolved)
+        body = convert_body(body, args.asset_prefix, used_assets, unresolved,
+                            available_assets)
         body = html_md_to_route(body, os.path.dirname(dest_path(node["target"])),
                                 args.route_prefix)
         body = cards_from_table(body)
