@@ -1,9 +1,13 @@
 # Districts Documentation
 
 Documentation site for [Districts](https://districts.xyz), served at
-<https://docs.districts.xyz/districts/>.
+<https://doc.districts.xyz/districts/>.
 
 Built with [Docusaurus 2](https://docusaurus.io/). Migrated from GitBook.
+
+`doc.districts.xyz` is temporary, so this site can be compared against the
+GitBook original still serving `docs.districts.xyz`. Cutover means pointing
+`docs.districts.xyz` here and deleting the GitBook CNAME.
 
 ## Local development
 

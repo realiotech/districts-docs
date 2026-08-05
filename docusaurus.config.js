@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Districts Documentation',
   tagline: 'A decentralized, open-source virtual world',
-  url: 'https://docs.districts.xyz',
+  url: 'https://doc.districts.xyz',
   baseUrl: '/districts/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
