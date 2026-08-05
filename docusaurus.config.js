@@ -78,51 +78,6 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Districts',
-            items: [
-              {
-                label: 'Website',
-                href: 'https://districts.xyz',
-              },
-              {
-                label: 'App',
-                href: 'https://app.districts.xyz',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/districts_xyz',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/districts',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/realiotech/districts-docs',
-              },
-              {
-                label: 'Realio Network',
-                href: 'https://www.realio.network',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Districts`,
-      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

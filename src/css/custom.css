@@ -1,3 +1,20 @@
+/* districts.xyz brand font, self-hosted so the footer matches it exactly. */
+@font-face {
+  font-family: apkProtocol;
+  src: url('./fonts/apkProtocol.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: apkProtocol;
+  src: url('./fonts/apkProtocol-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 /**
  * Global styles, tuned to match the GitBook site this content came from.
  * Values were taken from the published GitBook site's own CSS custom
@@ -153,7 +170,3 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-:root .footer__col {
-  text-align: center;
-  padding-bottom: 1em;
-}
