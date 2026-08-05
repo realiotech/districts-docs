@@ -1,7 +1,6 @@
 ---
 title: "To our Community"
 sidebar_label: "To our Community"
-sidebar_position: 1
 ---
 
 At Districts, the strength of our platform lies in the vibrant community and the collaborative spirit that binds us. Community and collaboration are not just functions of Districts; they are the core pillars that drive our vision forward.

@@ -1,9 +1,13 @@
 ---
+id: "introduction"
+slug: /
 title: "Introduction"
 sidebar_label: "Introduction"
-sidebar_position: 1
-slug: /
 ---
+
+<div class="gitbook-cover">
+  <img src="/districts/gitbook/assets/image%20-%202025-03-16T144946.807.png" alt="" />
+</div>
 
 Welcome to the innovative world of Districts, a decentralized, open-source virtual world. Designed with creative professionals in mind, Districts offers a unique space for everyone to claim land and shape the future of virtual experience.
 

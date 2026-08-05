@@ -1,7 +1,6 @@
 ---
 title: "What does \u201cblockchain-based\u201d mean?"
 sidebar_label: "What does \u201cblockchain-based\u201d mean?"
-sidebar_position: 14
 ---
 
 Blockchain technology ensures that all transactions in Districts are secure, transparent, and immutable.

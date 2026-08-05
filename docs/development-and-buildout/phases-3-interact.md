@@ -1,7 +1,6 @@
 ---
 title: "Phases 3 - Interact"
 sidebar_label: "Phases 3 - Interact"
-sidebar_position: 3
 ---
 
 The development of Districts is structured in phases, each focusing on different aspects of the platform's growth and functionality.

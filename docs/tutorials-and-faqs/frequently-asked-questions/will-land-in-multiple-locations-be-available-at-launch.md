@@ -1,7 +1,6 @@
 ---
 title: "Will land in multiple locations be available at launch?"
 sidebar_label: "Will land in multiple locations be available at launch?"
-sidebar_position: 6
 ---
 
 No, only Land Pixels within the initial launch location—New York—were available during the first LandRush event. Additional locations will be released over time through a phased approach, with new locations unlocking based on community governance.

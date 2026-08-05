@@ -1,7 +1,6 @@
 ---
 title: "Video Library"
 sidebar_label: "Video Library"
-sidebar_position: 10
 ---
 
 Watch short videos that walk you through how to navigate key features in Districts — from claiming land to customizing your profile and exploring the map.

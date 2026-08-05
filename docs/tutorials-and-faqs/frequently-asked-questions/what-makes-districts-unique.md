@@ -1,7 +1,6 @@
 ---
 title: "What makes Districts unique?"
 sidebar_label: "What makes Districts unique?"
-sidebar_position: 7
 ---
 
 Districts is redefining digital land ownership by integrating blockchain technology with a decentralized, community-driven economy. It is built on the [Realio Network](https://realio.network/), a multi-chain Web3 ecosystem developed to revolutionize the issuance, management, and trading of real-world assets (RWAs) on-chain. At the core of this ecosystem is the Realio Network Chain, a Cosmos SDK-based Layer-1 blockchain designed for secure and efficient asset tokenization. Districts leverages this infrastructure to bridge physical and digital worlds, creating a new model for virtual land ownership, governance, and economic participation.

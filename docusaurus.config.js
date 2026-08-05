@@ -15,6 +15,11 @@ const config = {
   organizationName: 'realiotech',
   projectName: 'districts-docs',
 
+  // GitBook sets Inter as its body font; match it so text metrics line up.
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
+  ],
+
   presets: [
     [
       'classic',
@@ -62,7 +67,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'general/introduction',
+            docId: 'introduction',
             position: 'left',
             label: 'Documentation',
           },

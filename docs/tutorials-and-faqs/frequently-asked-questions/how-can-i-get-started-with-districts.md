@@ -1,7 +1,6 @@
 ---
 title: "How can I get started with Districts?"
 sidebar_label: "How can I get started with Districts?"
-sidebar_position: 3
 ---
 
 To claim land, you'll need:

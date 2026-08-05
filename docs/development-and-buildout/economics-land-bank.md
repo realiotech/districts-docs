@@ -1,7 +1,6 @@
 ---
 title: "Economics - Land Bank"
 sidebar_label: "Economics - Land Bank"
-sidebar_position: 4
 ---
 
 Behind Districts, there is unique economics referred to as the “Land Bank.” The Land Bank is a digital-native DeFi primitive introduced as part of the Districts LandRush. The Land Bank is set up so that when minting land in Districts, you are not only claiming a piece of the digital world, but you are contributing to the entire economic prosperity of Districts.<br />
@@ -34,6 +33,8 @@ If a user chooses to return their Land Pixel to the Land Bank over holding or se
 
 The Land Pixel Floor Price is determined by dividing the total $RIO held in the Land Bank by the total number of minted Land Pixel NFTs. Initially, this ensures that no parcel can fall below the base reserve of 4,000 $RIO. As more land parcels are minted, additional transaction fees accumulate, and burn rates are potentially reduced, causing the total reserve in the Land Bank and the Floor Price to rise over time.
 
-<figure><img src="/districts/img/missing/2xXpEVjhEcpgiNlDH0WC" alt="" /><figcaption></figcaption></figure>
 
-*For more details on the token economics, check out the*[ *Districts Token Economy Whitepaper*](https://districts.xyz/files/Districts_Token_Economy_Whitepaper.pdf)<br />
+
+<figure><img src="/districts/gitbook/assets/image%20%28159%29.png" alt="" /><figcaption></figcaption></figure>
+
+_For more details on the token economics, check out the_[ _Districts Token Economy Whitepaper_](https://districts.xyz/files/Districts_Token_Economy_Whitepaper.pdf)<br />

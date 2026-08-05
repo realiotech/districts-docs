@@ -1,7 +1,6 @@
 ---
 title: "How to use the Bridge"
 sidebar_label: "How to use the Bridge"
-sidebar_position: 1
 ---
 
 <video controls width="100%">

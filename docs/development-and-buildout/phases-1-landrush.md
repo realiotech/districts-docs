@@ -1,7 +1,6 @@
 ---
 title: "Phases 1 - LandRush"
 sidebar_label: "Phases 1 - LandRush"
-sidebar_position: 1
 ---
 
 The development of Districts is structured in phases, each focusing on different aspects of the platform's growth and functionality.
