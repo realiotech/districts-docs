@@ -1,0 +1,53 @@
+{
+  "name": "districts-docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.21",
+    "@docusaurus/preset-classic": "2.0.0-beta.21",
+    "@easyops-cn/docusaurus-search-local": "^0.26.1",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "overrides": {
+    "@babel/traverse": "^7.23.2",
+    "loader-utils": "^2.0.4",
+    "minimist": "^1.2.6",
+    "shell-quote": "^1.9.0",
+    "webpack": "^5.105.0",
+    "webpackbar": "^7.0.0",
+    "websocket-driver": "^0.7.5",
+    "react-dev-utils": {
+      "loader-utils": "^3.2.1"
+    },
+    "@easyops-cn/docusaurus-search-local": {
+      "cheerio": "1.0.0-rc.12"
+    }
+  }
+}
