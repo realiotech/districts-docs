@@ -38,14 +38,6 @@
   width: auto;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  gap: 64px;
-}
-
 .columns {
   display: flex;
   flex-direction: row;
@@ -84,60 +76,6 @@
   text-decoration: none;
 }
 
-.subscribe {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: fit-content;
-}
-
-.subscribeLabel {
-  font-size: 14px;
-  line-height: 24px;
-  color: #5a5a69;
-}
-
-.field {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #1c1c21;
-  border-radius: 100px;
-  height: 36px;
-  min-width: 300px;
-  padding-left: 16px;
-  gap: 8px;
-}
-
-.field:hover {
-  text-decoration: none;
-}
-
-.fieldPlaceholder {
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  color: #5a5a69;
-}
-
-.subscribeButton {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 36px;
-  padding: 0 20px;
-  border-radius: 100px;
-  background-color: #e9e9e9;
-  color: #161618;
-  font-size: 14px;
-  white-space: nowrap;
-  transition: opacity 0.3s;
-}
-
-.field:hover .subscribeButton {
-  opacity: 0.85;
-}
-
 .bottom {
   display: flex;
   flex-direction: column;
@@ -145,11 +83,36 @@
   gap: 32px;
 }
 
-.meta {
+.metaGroup {
   display: flex;
   flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 600px) {
+  .metaGroup {
+    gap: 16px;
+  }
+}
+
+/* Below 600px districts.xyz reverses this so the socials sit above the
+   copyright; at 600px and up it is a single row. */
+.meta {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
   gap: 32px;
+}
+
+@media (min-width: 600px) {
+  .meta {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
 }
 
 .copyright {
@@ -198,13 +161,7 @@
   width: 100%;
 }
 
-/* districts.xyz stacks the columns above the subscribe block on narrow
-   viewports, with the subscribe block first in the reversed order. */
 @media (max-width: 996px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-
   .footer {
     padding-top: 48px;
     padding-bottom: 110px;
