@@ -1,20 +1,19 @@
 ---
 title: "AI Image Prompts"
 sidebar_label: "AI Image Prompts"
-sidebar_position: 9
 ---
 
 **AI prompt:** `Blurred silhouette of a person in front of a city skyline at sunset, double exposure photography, abstract expressionism, blurred background, blurred foreground, soft colors, emotional and dreamy, captured in the style of Canon EOS-5D Mark III camera.`
 
-<figure><img src="/districts/img/missing/4mmcnZf09EPIwqWMEYDg" alt="" /><figcaption></figcaption></figure>
+<figure><img src="/districts/gitbook/assets/ai1.png" alt="" /><figcaption></figcaption></figure>
 
 **AI prompt:** `Abstract cityscape photograph shot on analogue camera with blurred skyscrapers, a pink and blue color gradients, with motion and some of parts in focus, others in a dreamy and foggy atmosphere, soft lighting, a motion blur effect, an urban background, and an artistic style. shot on Hasselblad`
 
-<figure><img src="/districts/img/missing/hAOYqydfGDL2gPHxZh8D" alt="" /><figcaption></figcaption></figure>
+<figure><img src="/districts/gitbook/assets/ai2.png" alt="" /><figcaption></figcaption></figure>
 
 **AI Prompt:** `Abstract blurry cityscape background with motion blur, yellow and teal colors, green plants in the foreground, high-rise buildings in the background, hazy, double exposure, sunny day, soft light, low-angle shot, pastel tones, misty, foggy, sunlight rays, blurred, bokeh effect, bright and airy, colorful, beautiful, daylight, professional photography shot on analogue camera, hyper-realistic parts, cinematic, volumetric lighting, sharp focus, extreme detail. The image is blurred, dreamy and foggy, with just some parts visible in focus.`
 
-<figure><img src="/districts/img/missing/BRLML9HaN6OFgwIYIgYo" alt="" /><figcaption></figcaption></figure>
+<figure><img src="/districts/gitbook/assets/ai3.png" alt="" /><figcaption></figcaption></figure>
 
 **Popular AI Tools for Content Creation:**
 

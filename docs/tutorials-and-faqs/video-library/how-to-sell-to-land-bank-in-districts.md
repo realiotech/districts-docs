@@ -1,7 +1,6 @@
 ---
 title: "How to sell to Land Bank in Districts"
 sidebar_label: "How to sell to Land Bank in Districts"
-sidebar_position: 6
 ---
 
 <video controls width="100%">

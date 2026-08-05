@@ -1,7 +1,6 @@
 ---
 title: "How to mint a Land Pixel"
 sidebar_label: "How to mint a Land Pixel"
-sidebar_position: 3
 ---
 
 <video controls width="100%">

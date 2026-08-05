@@ -1,7 +1,6 @@
 ---
 title: "How can I stay updated on Districts developments?"
 sidebar_label: "How can I stay updated on Districts developments?"
-sidebar_position: 16
 ---
 
 The best way to stay updated on Districts developments is to:&#x20;

@@ -1,7 +1,6 @@
 ---
 title: "Social Media Content"
 sidebar_label: "Social Media Content"
-sidebar_position: 1
 ---
 
 Looking to craft your posts about Districts? We put together some solid resources to help you find accurate information and create compelling content, whether sharing about LandRush events, virtual land, or your Districts experience.

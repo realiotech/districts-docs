@@ -1,0 +1,242 @@
+[
+  {
+    "type": "category",
+    "label": "GENERAL",
+    "collapsible": false,
+    "collapsed": false,
+    "items": [
+      {
+        "type": "doc",
+        "id": "introduction"
+      },
+      {
+        "type": "doc",
+        "id": "general/what-is-districts"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "COMMUNITY & COLLABORATION",
+    "collapsible": false,
+    "collapsed": false,
+    "items": [
+      {
+        "type": "doc",
+        "id": "community-and-collaboration/to-our-community"
+      },
+      {
+        "type": "doc",
+        "id": "community-and-collaboration/social-media-handles"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "DEVELOPMENT & BUILDOUT",
+    "collapsible": false,
+    "collapsed": false,
+    "items": [
+      {
+        "type": "doc",
+        "id": "development-and-buildout/phases-1-landrush"
+      },
+      {
+        "type": "doc",
+        "id": "development-and-buildout/phases-2-build"
+      },
+      {
+        "type": "doc",
+        "id": "development-and-buildout/phases-3-interact"
+      },
+      {
+        "type": "doc",
+        "id": "development-and-buildout/economics-land-bank"
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Tutorials and FAQS",
+    "collapsible": false,
+    "collapsed": false,
+    "items": [
+      {
+        "type": "category",
+        "label": "Video Library",
+        "link": {
+          "type": "doc",
+          "id": "tutorials-and-faqs/video-library/index"
+        },
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/video-library/how-to-use-the-bridge"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/video-library/how-to-select-your-username"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/video-library/how-to-mint-a-land-pixel"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/video-library/how-to-buy-land-in-districts"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/video-library/how-to-sell-land-in-districts"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/video-library/how-to-sell-to-land-bank-in-districts"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Frequently Asked Questions",
+        "link": {
+          "type": "doc",
+          "id": "tutorials-and-faqs/frequently-asked-questions/index"
+        },
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/who-is-districts-for"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/who-is-behind-districts"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/how-can-i-get-started-with-districts"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/when-is-the-districts-landrush"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/can-anyone-participate-in-the-landrush-and-how-do-i-claim-land"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/will-land-in-multiple-locations-be-available-at-launch"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/what-makes-districts-unique"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/how-districts-innovates-virtual-land-ownership"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/what-tokens-can-be-used-in-districts"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/how-does-the-land-bank-work"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/what-are-land-pixels"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/can-i-resell-my-land-once-i-claim-it"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/what-are-the-rare-genesis-nfts-and-what-benefits-do-they-provide"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/what-does-blockchain-based-mean"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/what-can-you-do-in-districts"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/how-can-i-stay-updated-on-districts-developments"
+          },
+          {
+            "type": "doc",
+            "id": "tutorials-and-faqs/frequently-asked-questions/how-do-i-delete-my-districts-account"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "label": "BRANDING GUIDELINES",
+    "collapsible": false,
+    "collapsed": false,
+    "items": [
+      {
+        "type": "category",
+        "label": "Districts Brand Kit",
+        "link": {
+          "type": "doc",
+          "id": "branding-guidelines/districts-brand-kit/index"
+        },
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/social-media-content"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/logos"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/typography"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/logotype"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/taglines"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/assets"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/backgrounds"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/covers"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/ai-image-prompts"
+          },
+          {
+            "type": "doc",
+            "id": "branding-guidelines/districts-brand-kit/video-library"
+          }
+        ]
+      }
+    ]
+  }
+]

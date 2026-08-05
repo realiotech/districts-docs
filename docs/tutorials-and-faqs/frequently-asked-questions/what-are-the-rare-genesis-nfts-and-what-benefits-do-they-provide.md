@@ -1,7 +1,6 @@
 ---
 title: "What are the Rare Genesis NFTs, and what benefits do they provide?"
 sidebar_label: "What are the Rare Genesis NFTs, and what benefits do they provide?"
-sidebar_position: 13
 ---
 
 Rare Genesis NFTs are a special set of NFTs from a pre-launch event that carry exclusive privileges in Districts. In October 2022, the Realio team airdropped 100 “Genesis” NFTs to early supporters, of which 10 were designated as "Rare" and uniquely tied to specific locations within the Districts ecosystem. These Rare Genesis NFTs serve as keys to those cities, granting their holders exclusive benefits.
@@ -15,6 +14,6 @@ Exclusive Benefits for Rare Genesis NFT Holders:
 * Future Utilities and Special Benefits:\
   As the Districts ecosystem evolves, additional special utilities and rewards will be developed exclusively for Rare Genesis NFT holders.<br />
 
-*For more details, see the*[ *Districts Token Economy Whitepaper*](https://districts.xyz/files/Districts_Token_Economy_Whitepaper.pdf)
+_For more details, see the_[ _Districts Token Economy Whitepaper_](https://districts.xyz/files/Districts_Token_Economy_Whitepaper.pdf)
 
 <br />

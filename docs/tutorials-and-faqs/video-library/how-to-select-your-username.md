@@ -1,7 +1,6 @@
 ---
 title: "How to select your username"
 sidebar_label: "How to select your username"
-sidebar_position: 2
 ---
 
 <video controls width="100%">

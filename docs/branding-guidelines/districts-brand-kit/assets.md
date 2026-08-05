@@ -1,13 +1,14 @@
 ---
 title: "Assets"
 sidebar_label: "Assets"
-sidebar_position: 6
 ---
 
 Globe
 
-<figure><img src="/districts/img/missing/JuJn3jUwiMEOAoKkd1hY" alt="" width="375" /><figcaption></figcaption></figure>
+
+
+<figure><img src="/districts/gitbook/assets/globe.png" alt="" width="375" /><figcaption></figcaption></figure>
 
 Hexagons
 
-<figure><img src="/districts/img/missing/St9ofdtzBl6lffg7oK2R" alt="" /><figcaption></figcaption></figure>
+<figure><img src="/districts/gitbook/assets/image%20-%202025-03-14T122822.962.png" alt="" /><figcaption></figcaption></figure>

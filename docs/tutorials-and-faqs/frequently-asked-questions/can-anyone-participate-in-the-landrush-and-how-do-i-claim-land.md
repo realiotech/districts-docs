@@ -1,7 +1,6 @@
 ---
 title: "Can anyone participate in the LandRush, and how do I claim land?"
 sidebar_label: "Can anyone participate in the LandRush, and how do I claim land?"
-sidebar_position: 5
 ---
 
 Yes — the LandRush is open to anyone who wants to explore and claim land.

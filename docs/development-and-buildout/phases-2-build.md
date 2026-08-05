@@ -1,7 +1,6 @@
 ---
 title: "Phases 2 - Build"
 sidebar_label: "Phases 2 - Build"
-sidebar_position: 2
 ---
 
 The development of Districts is structured in phases, each focusing on different aspects of the platform's growth and functionality.

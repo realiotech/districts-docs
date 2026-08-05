@@ -1,7 +1,6 @@
 ---
 title: "How to buy Land in Districts"
 sidebar_label: "How to buy Land in Districts"
-sidebar_position: 4
 ---
 
 <video controls width="100%">

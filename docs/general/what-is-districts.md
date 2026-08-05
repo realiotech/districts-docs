@@ -1,8 +1,11 @@
 ---
 title: "What is Districts?"
 sidebar_label: "What is Districts?"
-sidebar_position: 2
 ---
+
+<div class="gitbook-cover">
+  <img src="/districts/gitbook/assets/image%20-%202025-03-16T144924.704.png" alt="" />
+</div>
 
 Districts is a virtual world mirroring Earth, where individual creativity will meet collective innovation. We offer a platform where everyone can own their land and shape the cities of tomorrow. We are leveraging blockchain technology and smart contracts to provide a secure and transparent environment.
 

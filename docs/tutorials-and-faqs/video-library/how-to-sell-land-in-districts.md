@@ -1,7 +1,6 @@
 ---
 title: "How to sell Land in Districts"
 sidebar_label: "How to sell Land in Districts"
-sidebar_position: 5
 ---
 
 <video controls width="100%">

@@ -1,7 +1,6 @@
 ---
 title: "How Do I Delete My Districts Account?"
 sidebar_label: "How Do I Delete My Districts Account?"
-sidebar_position: 17
 ---
 
 You can delete your Districts account data in the “Settings” menu in the Districts Platform (directions below). Account deletion is reversible for 2 years—if you connect with the same Web3 wallet during that period, you will have the option to restore an existing account, meaning you can restore your previous account information (such as email, social name, profile image, and settings) or you can create a new one. After 2 years, if you haven’t restored your account by connecting your wallet and prompting the restore, your account and all associated account information will be permanently deleted.
